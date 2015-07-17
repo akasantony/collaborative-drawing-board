@@ -9,7 +9,7 @@
 	"scripts": {
   		"start": "node server.js"
 	},
-"	main": "server.js",
+	"main": "server.js",
     "author": {
 		"name": "Akas Antony",
 		"email": "antony.akas@gmail.com"
