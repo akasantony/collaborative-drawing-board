@@ -1,0 +1,13 @@
+{
+    "name": "CollaborativeDrawingBoard",
+    "version": "0.0.1",
+    "description": "Real time collaborative board",
+    "dependencies": {
+        "socket.io": "latest",
+        "express": "latest"
+    },
+    "author": {
+		"name": "Akas Antony",
+		"email": "antony.akas@gmail.com"
+	}
+}
