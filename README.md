@@ -1,4 +1,6 @@
-# colloaborative-drawing-board
+colloaborative-drawing-board
+========
+
 A collaborative drawing board written in NodeJS using SocketIO.
 
 Running the code
@@ -6,8 +8,10 @@ Running the code
 
 Setting up
 ------
-Install [NodeJS] (https://nodejs.org/)
+Install [NodeJS](https://nodejs.org/)
+
 Install node dependencies via npm
+
 ```
 npm install
 ```

@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <title> Collaborative Drawing Board </title>
         <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/index.css">
     </head>
 
     <body>
@@ -13,15 +14,15 @@
 		<script>
 		  var socket = io();
 		</script>
-        <div id="container">
+        <div id="container">	
             <div id="canvas">
                <center> <canvas id="drawCanvas" width="700" height="500" style="border:1px solid #000000;"></canvas> </center>
             </div>
 			<center>
 			<div id="tools">
-				<canvas id="redColor"></canvas>
-				<canvas id="greenColor"></canvas>
-				<canvas id="blueColor"></canvas>
+				<canvas class="color" id="redColor"></canvas>
+				<canvas class="color" id="greenColor"></canvas>
+				<canvas class="color" id="blueColor"></canvas>
 			</div>
        		</center>
         </div>

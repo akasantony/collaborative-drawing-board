@@ -1,0 +1,7 @@
+#drawCanvas:active { 
+   cursor: crosshair;
+}
+
+.color { 
+    cursor: pointer;
+}
