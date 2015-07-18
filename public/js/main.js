@@ -1,5 +1,5 @@
 window.onload = function() {
-	var socket = io.connect("http://collabdraw.rhcloud.com:8000");
+	var socket = io.connect();
 	var canvas = $('#drawCanvas')[0];
 	var red = $('#redColor')[0];
 	var green = $('#greenColor')[0];
